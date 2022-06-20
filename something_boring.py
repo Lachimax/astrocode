@@ -6,8 +6,8 @@ from scipy.special import gamma, gammaincinv
 
 def find_eff_intensity(t_lum, n, r_e, e=0):
     """
-    Finds the intensity at the effective radius (Ie) for assumed Sersic
-    profile.
+    Finds the intensity (surface mass density) at the effective radius (Ie) for a Sersic
+    profile with known total luminosity (stellar mass).
 
     Parameters
     ----------
